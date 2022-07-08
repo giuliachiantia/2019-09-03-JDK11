@@ -5,7 +5,11 @@
 package it.polito.tdp.food;
 
 import java.net.URL;
+import java.util.List;
 import java.util.ResourceBundle;
+
+import it.polito.tdp.food.model.Adiacenza;
+import it.polito.tdp.food.model.Food;
 import it.polito.tdp.food.model.Model;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -40,7 +44,7 @@ public class FoodController {
     private Button btnCammino; // Value injected by FXMLLoader
 
     @FXML // fx:id="boxPorzioni"
-    private ComboBox<?> boxPorzioni; // Value injected by FXMLLoader
+    private ComboBox<String> boxPorzioni; // Value injected by FXMLLoader
 
     @FXML // fx:id="txtResult"
     private TextArea txtResult; // Value injected by FXMLLoader
@@ -48,13 +52,52 @@ public class FoodController {
     @FXML
     void doCammino(ActionEvent event) {
     	txtResult.clear();
-    	txtResult.appendText("Cerco cammino peso massimo...");
+    	//txtResult.appendText("Cerco cammino peso massimo...");
+    	String porzione = boxPorzioni.getValue() ;
+    	
+    	if(porzione==null) {
+    		txtResult.appendText("ERRORE: devi selezionare una porzione\n");
+    		return ;
+    	}
+    	Integer n;
+    	try {
+    		n=Integer.parseInt(txtPassi.getText());
+    	}catch(NumberFormatException e) {
+    		txtResult.appendText("ERRORE: devi inserire un numero\n");
+    		return;
+    	}
+    	model.cercaCammino(porzione, n);
+    	if(model.getCamminoMax()==null) {
+    		txtResult.appendText("Non esiste un cammino di lunghezza N");
+    	} else {
+    		txtResult.appendText("Trovato un cammino di peso "+model.getPesoMax()+"\n");
+    		for(String vertice:model.getCamminoMax()) {
+    			txtResult.appendText(vertice+"\n");
+    		}
+    	}
+    	
+    
     }
 
     @FXML
     void doCorrelate(ActionEvent event) {
     	txtResult.clear();
-    	txtResult.appendText("Cerco porzioni correlate...");
+    	String porzione = boxPorzioni.getValue() ;
+    	
+    	if(porzione==null) {
+    		txtResult.appendText("ERRORE: devi selezionare una porzione\n");
+    		return ;
+    	}
+    	
+    	txtResult.appendText("Porzioni correlate a: "+porzione+"\n");
+    	List<Adiacenza> adiacenti = model.getAdiacenti(porzione);
+    	for(Adiacenza a : adiacenti) {
+    		if(porzione.equals(a.getName1())){
+    			txtResult.appendText(String.format("%s  %d\n", a.getName2(), a.getPeso()));
+    	} else if(porzione.equals(a.getName2())) {
+    		txtResult.appendText(String.format("%s  %d\n", a.getName1(), a.getPeso()));
+    		}
+    	}
     	
     }
 
@@ -62,6 +105,24 @@ public class FoodController {
     void doCreaGrafo(ActionEvent event) {
     	txtResult.clear();
     	txtResult.appendText("Creazione grafo...");
+    	txtResult.clear();
+    	//txtResult.appendText("Creazione grafo...");
+    	String p=txtCalorie.getText();
+    	Integer calories;
+    	try {
+    		calories=Integer.parseInt(p);
+    		
+    		
+    	}catch(NumberFormatException e) {
+    		txtResult.appendText("Devi inserire un numero\n");
+    		return;
+    	}
+    	model.creaGrafo(calories);
+    	String msg = model.creaGrafo(calories);
+    	txtResult.appendText(msg);
+    	boxPorzioni.getItems().clear();
+    	boxPorzioni.getItems().addAll(model.getVertici());
+    	
     	
     }
 

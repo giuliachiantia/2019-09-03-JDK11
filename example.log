@@ -1,0 +1,51 @@
+INFO JavaFX Application Thread com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+INFO JavaFX Application Thread com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+INFO JavaFX Application Thread com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+INFO JavaFX Application Thread com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+INFO JavaFX Application Thread com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+INFO JavaFX Application Thread com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+INFO JavaFX Application Thread com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+INFO JavaFX Application Thread com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+INFO JavaFX Application Thread com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+INFO JavaFX Application Thread com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+INFO JavaFX Application Thread com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+INFO JavaFX Application Thread com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+INFO JavaFX Application Thread com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+INFO JavaFX Application Thread com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+WARN HikariPool-1 housekeeper com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m4s106ms).
+WARN HikariPool-1 housekeeper com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m3s298ms).
+WARN HikariPool-1 housekeeper com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m3s311ms).
+WARN HikariPool-1 housekeeper com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m3s336ms).
+WARN HikariPool-1 housekeeper com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m3s302ms).
+WARN HikariPool-1 housekeeper com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=37m43s340ms).
+WARN HikariPool-1 housekeeper com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=37m43s340ms).
+WARN HikariPool-1 housekeeper com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=37m43s331ms).
+WARN HikariPool-1 housekeeper com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=37m43s340ms).
+WARN HikariPool-1 housekeeper com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=37m43s338ms).
+WARN HikariPool-1 housekeeper com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=23m21s499ms).
+WARN HikariPool-1 housekeeper com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=23m21s499ms).
+WARN HikariPool-1 housekeeper com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=23m21s498ms).
+WARN HikariPool-1 housekeeper com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=23m21s500ms).
+WARN HikariPool-1 housekeeper com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=23m21s499ms).
+WARN HikariPool-1 housekeeper com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m27s565ms).
+WARN HikariPool-1 housekeeper com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m26s392ms).
+WARN HikariPool-1 housekeeper com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m26s695ms).
+WARN HikariPool-1 housekeeper com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m26s695ms).
+WARN HikariPool-1 housekeeper com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m26s693ms).
+WARN HikariPool-1 housekeeper com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47s610ms).
+WARN HikariPool-1 housekeeper com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47s606ms).
+WARN HikariPool-1 housekeeper com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47s607ms).
+WARN HikariPool-1 housekeeper com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47s607ms).
+WARN HikariPool-1 housekeeper com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47s610ms).
+WARN HikariPool-1 housekeeper com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h14m7s269ms).
+WARN HikariPool-1 housekeeper com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h14m7s269ms).
+INFO JavaFX Application Thread com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+INFO JavaFX Application Thread com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+INFO JavaFX Application Thread com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+INFO JavaFX Application Thread com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+INFO JavaFX Application Thread com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+INFO JavaFX Application Thread com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+INFO JavaFX Application Thread com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+INFO JavaFX Application Thread com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+INFO JavaFX Application Thread com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+INFO JavaFX Application Thread com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
